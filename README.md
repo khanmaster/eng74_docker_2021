@@ -21,4 +21,18 @@
 - Docker engine connects the container with OS and only use the resources required
 
 - VM works with Hypervisor to connect guest OS/VM with Host OS/server
-- 
+
+
+# Docker Commands:
+- ``` docker pull name_of_image```
+- ``` docker run name_of_image```
+- ``` docker build -t name_of_image```
+- ``` docker commit name_of_image/container-id```
+
+- ``` docker start container-id```
+- ``` docker stop conainer-id/name ```
+- ``` docker rm container-id/name```
+- ``` docker ps and ps -a``` to check the existing containers
+
+### logging into a running container
+``` docker exec -it name_of_container/id```
