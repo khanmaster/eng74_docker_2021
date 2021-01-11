@@ -35,4 +35,12 @@
 - ``` docker ps and ps -a``` to check the existing containers
 
 ### logging into a running container
-``` docker exec -it name_of_container/id```
+``` docker exec -it name_of_container/id``i`
+
+
+### Making docker docs available on our local host 
+``` docker run -d -p 4000:4000 docs/docker.github.io```
+
+- **Port mapping in our containers with localhost**
+``` docker run -d -p localhost-port:container-port```
+``` docker run -d -p 4001:4000 name_of_the_image
